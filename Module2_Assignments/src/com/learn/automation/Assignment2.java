@@ -301,7 +301,7 @@ public class Assignment2 {
 	
 	private static void IsStringPalindrome(String s)
 	{
-		// Convert string to lowercase for 
+		// Convert string to lower case for 
         // case-insensitive comparison
 		
         s = s.toLowerCase();
@@ -319,5 +319,6 @@ public class Assignment2 {
         else
         	System.out.println("String "+s+" is not a Palindrome.");
 	}
+	
 	
 }
