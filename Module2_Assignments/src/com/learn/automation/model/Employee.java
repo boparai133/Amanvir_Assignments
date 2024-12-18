@@ -1,4 +1,4 @@
-package com.learn.automation.models;
+package com.learn.automation.model;
 
 public class Employee {
 	
