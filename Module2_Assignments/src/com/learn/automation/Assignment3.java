@@ -1,5 +1,5 @@
 package com.learn.automation;
-import com.learn.automation.model.*;
+import com.learn.automation.models.*;
 
 public class Assignment3 {
 
