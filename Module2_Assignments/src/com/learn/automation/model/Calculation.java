@@ -1,6 +1,7 @@
-package com.learn.automation.models;
+package com.learn.automation.model;
+import com.learn.automation.interfaces.*;
 
-public class Calculation {
+public class Calculation implements A,B {
 	
 	int n1;
 	int n2;
@@ -50,6 +51,26 @@ public class Calculation {
 	{
 		int sum = n1+n2+n3;		
 		System.out.println("The sum of double x,y,z is: "+ sum);
+	}
+
+	@Override
+	public void sum() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+// Question 2: of assignment 4
+	@Override
+	public void mul() {
+		// TODO Auto-generated method stub		
+		System.out.println("mul() of interface B.x: "+ B.x +" and B.y: "+ B.y+ " is: "+(B.x * B.y));
+	}
+
+	@Override
+	public void add() {
+		// TODO Auto-generated method stub
+		System.out.println("add() of interface A.a: "+A.a+" and A.b: "+A.b+" is: "+(A.a + A.b));
 	}
 	
 	
