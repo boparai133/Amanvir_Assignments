@@ -5,14 +5,16 @@
     <classes>
       <class name="BusyQA.Tests.LoginTestCases">
         <methods>
+          <include name="TC1"/>
           <include name="beforeSuite"/>
           <include name="afterClass"/>
           <include name="afterTest"/>
           <include name="afterSuite"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="TC4"/>
           <include name="beforeClass"/>
+          <include name="TC3"/>
+          <include name="TC2"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- BusyQA.Tests.LoginTestCases -->

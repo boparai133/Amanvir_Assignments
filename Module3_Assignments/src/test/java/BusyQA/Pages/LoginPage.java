@@ -19,10 +19,10 @@ WebDriver driver;
 	By pswd = By.name("password");
 	
 	//Locator for login button
-	By loginBtn = By.cssSelector(".oxd-button");
+	By loginBtn = By.cssSelector("button[type='submit']");
 	
 	//Locator for error message
-	By loginError = By.cssSelector(".oxd-alert-content-text");
+	By loginError = By.xpath("//p[@class='oxd-text oxd-text--p oxd-alert-content-text']");
 	
 	//Method to enter username
 	public void enterUsername(String user) {
