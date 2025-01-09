@@ -11,7 +11,8 @@ WebDriver driver;
 	}
 	
 	//Locator for welcome user field
-	By welComeusr = By.cssSelector(".oxd-userdropdown-img");
+	By welComeusr = By.cssSelector("p[class=oxd-userdropdown-name]");
+	//By welComeusr = By.xpath("//p[@class='oxd-userdropdown-name']");
 	
 	
 	//Locator for Logout link
