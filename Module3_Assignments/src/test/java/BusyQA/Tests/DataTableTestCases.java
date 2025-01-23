@@ -19,7 +19,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
-public class DataTableTestClass {
+public class DataTableTestCases {
 	WebDriver driver;
   @Test(enabled = false)
   public void Test1() throws InterruptedException {

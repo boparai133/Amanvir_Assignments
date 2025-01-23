@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BusyQA.Tests.DataTableTestClass">
+      <class name="BusyQA.Tests.DataTableTestCases">
         <methods>
           <include name="Test2"/>
           <include name="beforeTest"/>
@@ -12,7 +12,7 @@
           <include name="Test1"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- BusyQA.Tests.DataTableTestClass -->
+      </class> <!-- BusyQA.Tests.DataTableTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

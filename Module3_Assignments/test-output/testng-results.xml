@@ -6,28 +6,28 @@
     <groups>
     </groups>
     <test started-at="2025-01-22T23:11:32 EST" name="Default test" finished-at="2025-01-22T23:11:45 EST" duration-ms="12933">
-      <class name="BusyQA.Tests.DataTableTestClass">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:BusyQA.Tests.DataTableTestClass@6bbe2511]" started-at="2025-01-22T23:11:32 EST" name="beforeTest" finished-at="2025-01-22T23:11:32 EST" duration-ms="12" status="PASS">
+      <class name="BusyQA.Tests.DataTableTestCases">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:BusyQA.Tests.DataTableTestCases@6bbe2511]" started-at="2025-01-22T23:11:32 EST" name="beforeTest" finished-at="2025-01-22T23:11:32 EST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:BusyQA.Tests.DataTableTestClass@6bbe2511]" started-at="2025-01-22T23:11:32 EST" name="beforeClass" finished-at="2025-01-22T23:11:39 EST" duration-ms="6612" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:BusyQA.Tests.DataTableTestCases@6bbe2511]" started-at="2025-01-22T23:11:32 EST" name="beforeClass" finished-at="2025-01-22T23:11:39 EST" duration-ms="6612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Test3()[pri:0, instance:BusyQA.Tests.DataTableTestClass@6bbe2511]" started-at="2025-01-22T23:11:39 EST" name="Test3" finished-at="2025-01-22T23:11:45 EST" duration-ms="5663" status="PASS">
+        <test-method signature="Test3()[pri:0, instance:BusyQA.Tests.DataTableTestCases@6bbe2511]" started-at="2025-01-22T23:11:39 EST" name="Test3" finished-at="2025-01-22T23:11:45 EST" duration-ms="5663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:BusyQA.Tests.DataTableTestClass@6bbe2511]" started-at="2025-01-22T23:11:45 EST" name="afterClass" finished-at="2025-01-22T23:11:45 EST" duration-ms="566" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:BusyQA.Tests.DataTableTestCases@6bbe2511]" started-at="2025-01-22T23:11:45 EST" name="afterClass" finished-at="2025-01-22T23:11:45 EST" duration-ms="566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:BusyQA.Tests.DataTableTestClass@6bbe2511]" started-at="2025-01-22T23:11:45 EST" name="afterTest" finished-at="2025-01-22T23:11:45 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:BusyQA.Tests.DataTableTestCases@6bbe2511]" started-at="2025-01-22T23:11:45 EST" name="afterTest" finished-at="2025-01-22T23:11:45 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- BusyQA.Tests.DataTableTestClass -->
+      </class> <!-- BusyQA.Tests.DataTableTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
