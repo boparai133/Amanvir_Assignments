@@ -2,32 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-22T23:11:32 EST" name="Default suite" finished-at="2025-01-22T23:11:45 EST" duration-ms="12933">
+  <suite started-at="2025-02-20T09:41:06 EST" name="Default suite" finished-at="2025-02-20T09:43:00 EST" duration-ms="113137">
     <groups>
     </groups>
-    <test started-at="2025-01-22T23:11:32 EST" name="Default test" finished-at="2025-01-22T23:11:45 EST" duration-ms="12933">
-      <class name="BusyQA.Tests.DataTableTestCases">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:BusyQA.Tests.DataTableTestCases@6bbe2511]" started-at="2025-01-22T23:11:32 EST" name="beforeTest" finished-at="2025-01-22T23:11:32 EST" duration-ms="12" status="PASS">
+    <test started-at="2025-02-20T09:41:06 EST" name="Default test" finished-at="2025-02-20T09:43:00 EST" duration-ms="113137">
+      <class name="BusyQA.Tests.Assignment3Tests">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:BusyQA.Tests.Assignment3Tests@6743e411]" started-at="2025-02-20T09:41:06 EST" name="driverSetup" finished-at="2025-02-20T09:41:13 EST" duration-ms="6128" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:BusyQA.Tests.DataTableTestCases@6bbe2511]" started-at="2025-01-22T23:11:32 EST" name="beforeClass" finished-at="2025-01-22T23:11:39 EST" duration-ms="6612" status="PASS">
+        </test-method> <!-- driverSetup -->
+        <test-method signature="ReadWriteToExcelfile()[pri:0, instance:BusyQA.Tests.Assignment3Tests@6743e411]" started-at="2025-02-20T09:41:13 EST" name="ReadWriteToExcelfile" finished-at="2025-02-20T09:42:59 EST" duration-ms="106514" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="Test3()[pri:0, instance:BusyQA.Tests.DataTableTestCases@6bbe2511]" started-at="2025-01-22T23:11:39 EST" name="Test3" finished-at="2025-01-22T23:11:45 EST" duration-ms="5663" status="PASS">
+        </test-method> <!-- ReadWriteToExcelfile -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:BusyQA.Tests.Assignment3Tests@6743e411]" started-at="2025-02-20T09:42:59 EST" name="driverClose" finished-at="2025-02-20T09:43:00 EST" duration-ms="436" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test3 -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:BusyQA.Tests.DataTableTestCases@6bbe2511]" started-at="2025-01-22T23:11:45 EST" name="afterClass" finished-at="2025-01-22T23:11:45 EST" duration-ms="566" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:BusyQA.Tests.DataTableTestCases@6bbe2511]" started-at="2025-01-22T23:11:45 EST" name="afterTest" finished-at="2025-01-22T23:11:45 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- BusyQA.Tests.DataTableTestCases -->
+        </test-method> <!-- driverClose -->
+      </class> <!-- BusyQA.Tests.Assignment3Tests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

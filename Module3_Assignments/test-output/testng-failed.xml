@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BusyQA.Tests.DataTableTestCases">
+      <class name="BusyQA.Tests.Assignment3Tests">
         <methods>
-          <include name="Test2"/>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
-          <include name="afterClass"/>
-          <include name="Test1"/>
-          <include name="beforeClass"/>
+          <include name="driverSetup"/>
+          <include name="ReadWriteToExcelfile"/>
+          <include name="driverClose"/>
         </methods>
-      </class> <!-- BusyQA.Tests.DataTableTestCases -->
+      </class> <!-- BusyQA.Tests.Assignment3Tests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
